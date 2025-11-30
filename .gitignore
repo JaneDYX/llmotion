@@ -3,6 +3,8 @@ build/
 install/
 log/
 
+llm_ws/src/llmotion/llmotion/models
+
 # Colcon workspace
 **/build/
 **/install/
