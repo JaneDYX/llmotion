@@ -1,0 +1,47 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Colcon workspace
+**/build/
+**/install/
+**/log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode & IDE stuff
+.vscode/
+.vscode-server/
+.idea/
+
+# CARLA generated files
+**/frames_*/
+*.egg
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Large generated data
+*.bag
+*.bag.active
+*.db3
+
+# Checkpoint & model weights
+*.pt
+*.pth
+*.ckpt
+
+# Cache
+.cache/
+
